@@ -1,0 +1,11 @@
+$color--blue: royalblue;
+$color--white: white;
+
+body {
+  background-color: $color--blue;
+  h1 {
+    color: $color--white;
+    font-size: 40px;
+    display: flex; // PostCSS 설정
+  }
+}
